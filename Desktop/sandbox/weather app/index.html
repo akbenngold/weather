@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="city..." /><button>
+          <img src="/public/images/search.png" alt="" />
+        </button>
+      </div>
+      <img src="/public/images/mist.png" alt="" />
+      <h1 class="temp">7°C</h1>
+      <h2 class="city">Lokoja</h2>
+
+      <div class="details">
+        <div class="component">
+          <img src="/public/images/humidity.png" alt="" />
+          <div class="description">
+            <div class="humidity__value">48%</div>
+            <div class="text">Humidity</div>
+          </div>
+        </div>
+        <div class="component">
+          <img src="/public/images/wind.png" alt="" />
+          <div class="description">
+            <div class="wind__value">10.29km/h</div>
+            <div class="text">Wind Speed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
